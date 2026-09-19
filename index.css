@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  background: #F5F5FB;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #12141C;
+  }
+}
